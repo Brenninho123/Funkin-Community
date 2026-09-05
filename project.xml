@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<title>Funkin' Community</title>
+	<meta title="Funkin' Community" package="com.funkin.community" version="1.0.0" company="Brenninho123" />
+
+	<app main="Main" file="FunkinCommunity" path="export" />
+
+	<window width="1280" height="720" fps="60" background="#000000" hardware="true" vsync="false" />
+	<window resizable="true" orientation="landscape" fullscreen="false" />
+
+	<source path="source" />
+
+	<haxelib name="lime" />
+	<haxelib name="openfl" />
+	<haxelib name="flixel" />
+	<haxelib name="flixel-addons" />
+	<haxelib name="flixel-ui" />
+	<haxelib name="hxcpp" />
+
+	<assets path="assets/preload" rename="assets" exclude="*.ogg" if="web" />
+	<assets path="assets/preload" rename="assets" exclude="*.mp3" unless="web" />
+	
+	<assets path="assets/songs" library="songs" exclude="*.ogg" if="web" />
+	<assets path="assets/songs" library="songs" exclude="*.mp3" unless="web" />
+	
+	<assets path="assets/shared" library="shared" exclude="*.ogg" if="web" />
+	<assets path="assets/shared" library="shared" exclude="*.mp3" unless="web" />
+
+	<haxedef name="FLX_NO_GAMEPAD" />
+	<haxedef name="FLX_NO_MOUSE_ADVANCED" />
+	<haxedef name="FLX_NO_TOUCH" />
+	<haxedef name="HSCRIPT_ALLOWED" />
+
+	<icon path="art/icon16.png" size="16" />
+	<icon path="art/icon32.png" size="32" />
+	<icon path="art/icon64.png" size="64" />
+	<icon path="art/iconOG.png" />
+</project>

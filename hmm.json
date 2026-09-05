@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "lime": {
+      "type": "haxelib",
+      "version": "8.3.2"
+    },
+    "openfl": {
+      "type": "haxelib",
+      "version": "9.5.2"
+    },
+    "flixel": {
+      "type": "haxelib",
+      "version": "6.2.0"
+    },
+    "flixel-addons": {
+      "type": "haxelib",
+      "version": "4.0.2"
+    },
+    "flixel-ui": {
+      "type": "haxelib",
+      "version": "2.6.5"
+    },
+    "hscript": {
+      "type": "haxelib",
+      "version": "2.5.0"
+    },
+    "hxcpp": {
+      "type": "haxelib",
+      "version": "4.3.2"
+    }
+  }
+}
